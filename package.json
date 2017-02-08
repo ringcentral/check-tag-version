@@ -1,0 +1,39 @@
+{
+  "name": "check-tag-version",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo 'Test skipped...'",
+    "prepublish": "node ./index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": false,
+  "private": false,
+  "main": "./index.js",
+  "bin": {
+    "check-tag-version": "./index.js"
+  },
+  "author": {
+    "name": "RingCentral, Inc.",
+    "email": "devsupport@ringcentral.com"
+  },
+  "contributors": [
+    {
+      "name": "Kirill Konshin"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ringcentral/check-tag-version.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ringcentral/check-tag-version/issues"
+  },
+  "homepage": "https://github.com/ringcentral/check-tag-version",
+  "engines": {
+    "node": ">=0.10.36"
+  },
+  "license": "MIT"
+}
