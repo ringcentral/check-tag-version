@@ -1,6 +1,6 @@
 {
   "name": "check-tag-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "echo 'Test skipped...'",
     "prepublish": "node ./index.js"

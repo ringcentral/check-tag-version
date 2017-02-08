@@ -6,9 +6,9 @@ var cwd = process.cwd();
 
 try {
 
-    if (~JSON.parse(process.env.npm_config_argv).original.indexOf('install')) {
+    if (!~JSON.parse(process.env.npm_config_argv).original.indexOf('publish')) {
 
-        process.stdout.write('No checks needed on install phase, exiting\n');
+        process.stdout.write('No publish phase detected, exiting.\n');
         process.exit();
 
     }
@@ -25,4 +25,3 @@ try {
     process.exit(1);
 
 }
-
